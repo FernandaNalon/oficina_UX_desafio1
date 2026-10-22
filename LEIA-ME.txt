@@ -1,0 +1,21 @@
+DESAFIO 1 — INTERFACE IMPOSSÍVEL
+
+MISSÃO: Encontre a oficina “Experiência do Usuário: Tecnologia a Serviço das Pessoas” e conclua uma inscrição fictícia. Não use dados pessoais reais.
+
+PARA ABRIR: abra index.html em qualquer navegador. Para acessar pelo celular via QR Code, publique a pasta em hospedagem estática, como GitHub Pages, Netlify ou Hostinger.
+
+GABARITO DA FACILITADORA:
+- A página inicial destaca outros eventos e uma promoção sem saída.
+- O filtro “Oficina” esconde a oficina que está sendo procurada. Use “Todos”.
+- A busca e os menus não orientam adequadamente.
+- O formulário pede e-mail duas vezes e preferências irrelevantes.
+- A verificação matemática é desnecessária.
+- Os erros são vagos e pouco úteis.
+- O botão final diz CANCELAR INSCRIÇÃO, embora seja o caminho para concluir.
+- Na confirmação final, escolher “Não, quero me inscrever” conclui a missão.
+
+CAMINHO: Eventos > filtro Todos > pesquisar “Experiência do Usuário” > Ver detalhes > Inscrever-me > nome e e-mail fictícios > cor, Sexta-feira e 5 > marcar caixa > CANCELAR INSCRIÇÃO > Não, quero me inscrever.
+
+DEBATE: O que foi frustrante? Qual problema poderia levar alguém a desistir? Como redesenhar essa experiência?
+
+Todo o site é fictício e não envia dados a servidor.

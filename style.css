@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font: 16px Arial, sans-serif;
+    background: #f5f2e9;
+    color: #27243e
+}
+
+header {
+    background: #242557;
+    color: white;
+    padding: 18px 5%
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffe048
+}
+
+.logo span {
+    color: #ff7197
+}
+
+.marquee {
+    background: #ffe048;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold
+}
+
+.nav {
+    background: #ff6c94;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.nav button {
+    border: 0;
+    background: transparent;
+    padding: 13px 20px;
+    font-weight: bold;
+    color: #25224b;
+    cursor: pointer
+}
+
+.nav button:hover {
+    background: #ffdf54
+}
+
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 15px;
+    min-height: 65vh
+}
+
+.box {
+    background: white;
+    border: 2px solid #242557;
+    box-shadow: 5px 5px #ffd343;
+    padding: 23px;
+    margin-bottom: 22px
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 18px
+}
+
+h1 {
+    font-size: clamp(28px, 4vw, 44px);
+    color: #262658
+}
+
+button {
+    cursor: pointer
+}
+
+.btn {
+    border: 0;
+    background: #28285c;
+    color: white;
+    padding: 13px 18px;
+    margin: 5px 6px 5px 0;
+    font-weight: 800
+}
+
+.pink {
+    background: #ee4d83
+}
+
+.yellow {
+    background: #f9d339;
+    color: #29234d
+}
+
+.ad {
+    background: linear-gradient(130deg, #ff7caa, #ffdf48);
+    padding: 20px;
+    border: 4px dashed #262658;
+    text-align: center
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+}
+
+.card {
+    border: 2px solid #d4d3df;
+    padding: 17px;
+    background: #fff
+}
+
+.tag {
+    font-size: 12px;
+    background: #fce0e8;
+    padding: 5px
+}
+
+.muted {
+    font-size: 13px;
+    color: #696875
+}
+
+.field {
+    margin: 16px 0
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    border: 1px solid #8d8c99
+}
+
+.form {
+    max-width: 650px
+}
+
+.notice {
+    padding: 14px;
+    background: #fff2c5;
+    border-left: 5px solid #dfac14;
+    margin: 16px 0
+}
+
+.sidebar {
+    padding: 20px;
+    background: #fff0f4
+}
+
+.cols {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px
+}
+
+.progress {
+    height: 13px;
+    background: #ddd
+}
+
+.progress div {
+    height: 100%;
+    background: #ef4d85
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: #0009;
+    display: grid;
+    place-items: center;
+    padding: 15px
+}
+
+.modal {
+    background: white;
+    border: 6px solid #ffdc4a;
+    padding: 25px;
+    max-width: 450px;
+    box-shadow: 8px 8px #ff7197
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #28285c;
+    color: white;
+    padding: 17px;
+    max-width: 300px
+}
+
+.success {
+    background: #dff8e9;
+    border: 3px solid #207748;
+    padding: 25px
+}
+
+footer {
+    background: #242557;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    font-size: 13px
+}
+
+@media(max-width:700px) {
+
+    .hero,
+    .cols {
+        grid-template-columns: 1fr
+    }
+
+    .cards {
+        grid-template-columns: 1fr
+    }
+
+    .nav button {
+        padding: 10px
+    }
+
+    .box {
+        padding: 16px
+    }
+}
